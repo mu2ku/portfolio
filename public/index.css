@@ -1,7 +1,7 @@
-/* body, html {
-  display: flex;
-  justify-content: center;
-  background-image: url('https://www.koziel.fr/21503-pdt_1500/wall-of-roses-mural-sample.jpg');
+body, html {
+  background-image: url('https://picsum.photos/id/129/4910/3252.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-} */
+  height: 100%;
+  width: auto;
+}

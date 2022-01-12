@@ -4,6 +4,7 @@ import styles from '../Home/Home.module.css'
 const Home = () => {
   return (  
     <>
+    <div className={styles.intro_container}>
       <div className={styles.intro}>
         <p>I'm Grace</p>
         <p>Freelancer,</p>
@@ -11,6 +12,7 @@ const Home = () => {
         <p>Language Learning Enthusiast</p>
         <p>Check out my projects here or contact me here</p>
       </div>
+    </div>
     </>
   );
 }

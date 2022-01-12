@@ -6,7 +6,7 @@ const NavBar = (props) => {
   
   return (
       <>
-      <div className="styles.navbar-container">
+      <div className={styles.navbar_container}>
         <div className={styles.navbar}>
           <h1>Grace Mutuku</h1>
           <Link className={styles.navbar_items} to="/">Home</Link>

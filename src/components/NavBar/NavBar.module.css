@@ -2,12 +2,18 @@
   color: red;
   background-color: blue;
   display: flex;
-  flex-wrap: wrap row ;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
   padding: 0 50px;
 }
 
 .navbar {
   border: 10px solid green;
+}
+
+.navbar_container {
+  display: flex;
+  position: absolute;
+  height: 100vh;
+  width: auto;
 }
