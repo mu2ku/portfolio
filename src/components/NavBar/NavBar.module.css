@@ -1,0 +1,13 @@
+.navbar, .navbar_items {
+  color: red;
+  background-color: blue;
+  display: flex;
+  flex-wrap: wrap row ;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px;
+}
+
+.navbar {
+  border: 10px solid green;
+}
