@@ -1,13 +1,13 @@
-import React, {useState} from 'react'
+import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import NavBar from '../../components/NavBar/NavBar'
 import Home from '../Home/Home'
 import Footer from '../../components/Footer/Footer'
 import Works from '../Works/Works'
+import Contact from '../Contact/Contact'
 
 
 const App = () => {
-
 
 return(
   <>
@@ -15,6 +15,7 @@ return(
     <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/works' element={<Works />} />
+      <Route path='/contact' element={<Contact />} />
     </Routes>
     <Footer />
   </>

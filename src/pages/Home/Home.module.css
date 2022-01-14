@@ -13,10 +13,11 @@
 }
 
 .intro {
-  font-size: 2em;
+  font-size: 3.5vh;
   text-align: center;
   background-color: rgba(255,255,255, 0.8);
   border: 1px solid;
+  height: 86vh;
 }
 
 .image {

@@ -1,0 +1,22 @@
+.contact_container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px;
+}
+
+.contact_container > * {
+  padding: 60px 50px;
+  color: black;
+  width: 75%;
+}
+
+.contacts {
+  font-size: 3.5vh;
+  text-align: center;
+  background-color: rgba(255,255,255, 0.8);
+  border: 1px solid;
+  height: 86vh;
+  overflow-y: scroll;
+}
