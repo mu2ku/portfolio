@@ -4,12 +4,14 @@
   justify-content: flex-start;
   align-items: center;
   margin: 30px;
+  font-family: 'Faustina', serif;
 }
 
 .contact_container > * {
   padding: 60px 50px;
   color: black;
   width: 75%;
+  font-size: 2vh;
 }
 
 .contacts {
@@ -18,5 +20,28 @@
   background-color: rgba(255,255,255, 0.8);
   border: 1px solid;
   height: 86vh;
-  overflow-y: scroll;
+}
+
+img {
+  width: auto;
+}
+
+#resume {
+  width: 350px;
+  height:400px;
+}
+
+.icons > * {
+  padding: 0 10px;
+  margin: 20px;
+}
+
+.resume_container {
+  display: flex;
+  flex-flow: wrap column;
+  align-items: center;
+}
+
+button {
+  width: 20%;
 }

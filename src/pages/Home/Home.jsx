@@ -7,15 +7,15 @@ const Home = () => {
     <main> 
       <div className={styles.home_container}>
         <div className={styles.intro}>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vel turpis nunc eget lorem dolor sed viverra. Accumsan lacus vel facilisis volutpat est velit egestas dui. In cursus turpis massa tincidunt dui ut. Pharetra convallis posuere morbi leo urna. Ac feugiat sed lectus vestibulum mattis ullamcorper velit.
-        </p><br/>
-        <p>
-          Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Lorem ipsum dolor sit amet. Ut tortor pretium viverra suspendisse potenti nullam ac. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.
-        </p><br/>
-        <p>
-          Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. Ut tortor pretium viverra suspendisse potenti nullam ac. Turpis egestas integer eget aliquet nibh praesent tristique magna sit.
-        </p>
+        <p id={styles.hello}>HI, I'M GRACE</p>
+        &#9883;<br/>
+        &#9883;<br/>
+        &#9883;<br/>
+        <p>I am a former aerospace engineer turned software engineer with an almost 5-year career in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and private/public companies. I am a life-long learner and am passionate about leveraging the latest full-stack technologies and frameworks to create dynamic and innovative websites.</p>
+        &#9883;<br/>
+        &#9883;<br/>
+        &#9883;<br/>
+        <p>Feel free to look at my work <a href="/works">here</a> at contact me <a href="/contact">here</a>.</p>
         </div>
       </div>
     </main>

@@ -4,6 +4,7 @@
   justify-content: flex-start;
   align-items: center;
   margin: 30px;
+  font-family: 'Faustina', serif;
 }
 
 .home_container > * {
@@ -14,15 +15,13 @@
 
 .intro {
   font-size: 3.5vh;
-  text-align: center;
+  text-align: left;
   background-color: rgba(255,255,255, 0.8);
   border: 1px solid;
   height: 86vh;
 }
 
-.image {
-  width: 50vh;
-  height: 60vh;
-  object-fit: cover;
-  object-position: 65% 0;
+#hello {
+  font-family: 'Notable', sans-serif;
+  font-size: 6vh;
 }
