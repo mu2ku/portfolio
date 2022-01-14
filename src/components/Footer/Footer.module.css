@@ -1,0 +1,11 @@
+.footer_container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: center;
+  background-color: #F5E1D9;
+  font-size: 9px;
+  border-top: 2px solid;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
