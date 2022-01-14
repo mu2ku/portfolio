@@ -1,16 +1,23 @@
-.intro {
-  width: 110vh;
-  height: 70vh;
-  text-align: center;
-  background-color: hotpink;
-  padding: 60px;
-  font-size: 3em;
-  border: 10px blue dashed;
-  margin: auto;
+.home_container {
+  display: flex;
+  flex-flow: wrap row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 100px 0 0 0;
 }
 
-.intro_container {
-  position: fixed;
-  left: 50vh;
-  top: 5vh;
+.home_container > * {
+  padding: 0 70px;
+  color: #F4FAFF;
+}
+
+.intro {
+  font-size: 2.5em;
+}
+
+.image {
+  width: 50vh;
+  height: 60vh;
+  object-fit: cover;
+  object-position: 65% 0;
 }

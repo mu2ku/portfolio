@@ -6,15 +6,17 @@ const NavBar = (props) => {
   
   return (
       <>
-      <div className={styles.navbar_container}>
         <div className={styles.navbar}>
-          <h1>Grace Mutuku</h1>
-          <Link className={styles.navbar_items} to="/">Home</Link>
-          <Link className={styles.navbar_items} to="/about">About</Link>
-          <Link className={styles.navbar_items} to="/projects">Projects</Link>
-          <Link className={styles.navbar_items} to="/contact">Contact Me</Link>
+          <div className={styles.header_container}>
+            <h1 className={styles.heading}>Grace Mutuku</h1>
+          </div>
+          <div className={styles.links}>
+            <Link className={styles.navbar_items} to="/">Home</Link>
+            <Link className={styles.navbar_items} to="/about">About</Link>
+            <Link className={styles.navbar_items} to="/projects">Projects</Link>
+            <Link className={styles.navbar_items} to="/contact">Contact Me</Link>
+          </div>
         </div>
-      </div>
       </>
   );
 };

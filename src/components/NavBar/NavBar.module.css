@@ -1,19 +1,29 @@
-.navbar, .navbar_items {
-  color: red;
-  background-color: blue;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 50px;
-}
-
 .navbar {
-  border: 10px solid green;
+  color: #FFFFFF;
+  background-color: #020202;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.navbar_container {
+.header_container {
   display: flex;
-  position: absolute;
-  height: 100vh;
-  width: auto;
+  flex-flow: wrap row;
+  align-items: center;
+  padding: 0 0 0 20px;
+  font-size: 1em;
+}
+
+.links {
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 1.2em;
+  margin: 0 25px 0 0;
+}
+
+.navbar_items {
+  padding: 0 50px;
+  color: #FFFFFF;
 }

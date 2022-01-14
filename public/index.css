@@ -1,7 +1,5 @@
 body, html {
-  background-image: url('https://picsum.photos/id/129/4910/3252.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #092234;
   height: 100%;
   width: auto;
 }
