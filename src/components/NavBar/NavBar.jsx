@@ -8,13 +8,18 @@ const NavBar = (props) => {
       <>
         <div className={styles.navbar}>
           <div className={styles.header_container}>
-            <h1 className={styles.heading}>Grace Mutuku</h1>
+            <h2 className={styles.heading}>Grace Mutuku</h2>
           </div>
           <div className={styles.links}>
-            <Link className={styles.navbar_items} to="/">Home</Link>
-            <Link className={styles.navbar_items} to="/about">About</Link>
-            <Link className={styles.navbar_items} to="/projects">Projects</Link>
-            <Link className={styles.navbar_items} to="/contact">Contact Me</Link>
+            <div className={styles.combo}>
+              <img src="images/002-home.png" alt="" /> <Link className={styles.navbar_items} to="/">Home</Link>
+            </div>
+            <div className={styles.combo}>
+              <img src="images/003-programming.png" alt="" /> <Link className={styles.navbar_items} to="/works">Works</Link>
+            </div>
+            <div className={styles.combo}>
+              <img src="images/001-contact.png" alt="" /> <Link className={styles.navbar_items} to="/contact">Contact Me</Link>
+            </div>
           </div>
         </div>
       </>

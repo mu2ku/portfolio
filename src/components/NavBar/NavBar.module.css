@@ -1,6 +1,7 @@
 .navbar {
-  color: #FFFFFF;
-  background-color: #020202;
+  color: black;
+  background-color: #F5E1D9;
+  border-bottom: 2px solid;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -24,6 +25,22 @@
 }
 
 .navbar_items {
+  color: black;
+  padding: 0 10px;
+}
+
+.combo {
   padding: 0 50px;
-  color: #FFFFFF;
+  display: flex;
+  flex-flow: wrap row;
+  align-items: center;
+}
+
+img {
+  width: 35px;
+  height: 35px;
+}
+
+a:hover {
+  color: #BB7E8C;
 }
