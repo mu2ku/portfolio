@@ -8,7 +8,7 @@ const NavBar = (props) => {
       <>
         <div className={styles.navbar}>
           <div className={styles.header_container}>
-            <h2 className={styles.heading}>GRACE MUTUKU</h2>
+            <h1 className={styles.heading}>GRACE MUTUKU</h1>
           </div>
           <div className={styles.links}>
             <div className={styles.combo}>

@@ -13,7 +13,12 @@
   align-items: center;
   padding: 0 0 0 20px;
   font-size: 1em;
-  font-family: 'Special Elite', cursive;
+  font-family: 'Give You Glory', cursive;
+}
+
+.heading {
+  font-size: 1.5em;
+  padding: 4px 0 0 0;
 }
 
 .links {
