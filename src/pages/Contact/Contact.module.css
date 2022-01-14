@@ -8,7 +8,7 @@
 }
 
 .contact_container > * {
-  padding: 60px 50px;
+  padding: 15px 50px;
   color: black;
   width: 75%;
   font-size: 2vh;
@@ -20,6 +20,10 @@
   background-color: rgba(255,255,255, 0.8);
   border: 1px solid;
   height: 86vh;
+}
+
+.contacts > * {
+  margin: 25px;
 }
 
 img {
@@ -44,4 +48,9 @@ img {
 
 button {
   width: 20%;
+}
+
+.love {
+  font-family: 'Notable', sans-serif;
+  font-size: 5vh;
 }

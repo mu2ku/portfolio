@@ -18,12 +18,11 @@ const Works = () => {
             <div class="card-content">  
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Dominos || <a>Launch App</a></p>
+                  <p class="title is-4">Dominos || <a href="https://sei-dominos.surge.sh/" rel="noreferrer" target="_blank">Launch App</a></p>
                 </div>
               </div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. 
+                A web browser-based game of dominoes versus a computer.
               </div>
             </div>
           </div>
@@ -37,12 +36,11 @@ const Works = () => {
             <div class="card-content">  
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Lingua || <a>Launch App</a></p>
+                  <p class="title is-4">Lingua || <a href="https://sei-lingua-app.herokuapp.com/" rel="noreferrer" target="_blank">Launch App</a></p>
                 </div>
               </div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. 
+                Lingua is a repository of FREE language learning resources for all language learners. Google OAuth required.
               </div>
             </div>
           </div>
@@ -56,12 +54,11 @@ const Works = () => {
             <div class="card-content">  
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">Genshin Builds || <a>Launch App</a></p>
+                  <p class="title is-4">Genshin Builds || <a href="https://genshin-team-builder.herokuapp.com/" rel="noreferrer" target="_blank">Launch App</a></p>
                 </div>
               </div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. 
+                An application where you, the user, can create your own hypothetical team builds in Genshin Impact.
               </div>
             </div>
           </div>
@@ -75,12 +72,11 @@ const Works = () => {
             <div class="card-content">  
               <div class="media">
                 <div class="media-content">
-                  <p class="title is-4">J'ai Faim, Je Mange || <a>Launch App</a></p>
+                  <p class="title is-4">J'ai Faim, Je Mange || <a href="https://jai-104.herokuapp.com/" rel="noreferrer" target="_blank">Launch App</a></p>
                 </div>
               </div>
               <div class="content">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Phasellus nec iaculis mauris. 
+                A Python/Django web application for users to search, collect, and add their favorite recipes to share with others.
               </div>
             </div>
           </div>
