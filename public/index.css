@@ -1,6 +1,5 @@
 body, html {
   height: 100%;
   width: auto;
-  background-image: url('images/new_york_v2.jpg');
-  background-size: cover;
+  background-color: #f7f7f7;
 }

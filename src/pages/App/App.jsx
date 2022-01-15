@@ -1,25 +1,27 @@
-import React from 'react'
-import { Routes, Route } from 'react-router-dom'
-import NavBar from '../../components/NavBar/NavBar'
-import Home from '../Home/Home'
+import React from 'react';
+import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer'
-import Works from '../Works/Works'
-import Contact from '../Contact/Contact'
 
+import "./App.css";
 
-const App = () => {
-
-return(
-  <>
-    <NavBar />
-    <Routes>
-      <Route path='/' element={<Home />} />
-      <Route path='/works' element={<Works />} />
-      <Route path='/contact' element={<Contact />} />
-    </Routes>
+function App() {
+  return (
+    <>
+    <div className="App">
+      <NavBar />
+      <div id="Home">
+        <h1>Home</h1>
+      </div>
+      <div id="Portfolio">
+        <h1>Portfolio</h1>
+      </div>
+      <div id="Contact">
+        <h1>Contact</h1>
+      </div>
+    </div>
     <Footer />
-  </>
-);
+    </>
+  );
 }
 
 export default App;

@@ -1,27 +1,59 @@
 import React from "react";
-import { Link } from 'react-router-dom'
+import { Link } from 'react-scroll'
 import styles from '../NavBar/NavBar.module.css'
 
 const NavBar = (props) => {
   
   return (
       <>
-        <div className={styles.navbar}>
-          <div className={styles.header_container}>
-            <h1 className={styles.heading}>GRACE MUTUKU</h1>
+      <nav>
+        <ul className={styles.navbar}>
+          <div className={styles.links_container}>
+            <li className={styles.navbar_item}>
+              {/* <img src="images/002-home.png" alt="" />  */}
+              <Link 
+                activeClass="active"
+                className={styles.link} 
+                to="Home"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Home
+              </Link>
+            </li>
+            <li className={styles.navbar_item}>
+              {/* <img src="images/003-programming.png" alt="" />  */}
+              <Link 
+                activeClass="active"
+                className={styles.navbar_link} 
+                to="Portfolio"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Portfolio
+              </Link>
+            </li>
+            <li className={styles.navbar_link}>
+              {/* <img src="images/001-contact.png" alt="" />  */}
+              <Link 
+                activeClass="active"
+                className={styles.navbar_items} 
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Contact Me
+              </Link>
+            </li>
           </div>
-          <div className={styles.links}>
-            <div className={styles.combo}>
-              <img src="images/002-home.png" alt="" /> <Link className={styles.navbar_items} to="/">Home</Link>
-            </div>
-            <div className={styles.combo}>
-              <img src="images/003-programming.png" alt="" /> <Link className={styles.navbar_items} to="/works">Works</Link>
-            </div>
-            <div className={styles.combo}>
-              <img src="images/001-contact.png" alt="" /> <Link className={styles.navbar_items} to="/contact">Contact Me</Link>
-            </div>
-          </div>
-        </div>
+        </ul>
+      </nav>
       </>
   );
 };
