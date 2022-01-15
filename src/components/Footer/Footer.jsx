@@ -4,10 +4,13 @@ import styles from '../Footer/Footer.module.css'
 const Footer = () => {
   return (  
     <>
+    <div>
+      <img src="" alt="" />
+    </div>
     <div className={styles.footer_container}>
       <div className={styles.footer}>
         <p>
-        Navbar icons made by Freepik, Dave Gandy, Smashicons from www.flaticon.com
+        Grace Mutuku &#169; 2022
         </p>
       </div>
     </div>

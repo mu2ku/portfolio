@@ -24,6 +24,19 @@ const NavBar = (props) => {
               </Link>
             </li>
             <li className={styles.navbar_item}>
+              <Link 
+                activeClass="active"
+                className={styles.navbar_link} 
+                to="Skillset"
+                spy={true}
+                smooth={true}
+                offset={-100}
+                duration={500}
+              >
+                Skillset
+              </Link>
+            </li>
+            <li className={styles.navbar_item}>
               {/* <img src="images/003-programming.png" alt="" />  */}
               <Link 
                 activeClass="active"

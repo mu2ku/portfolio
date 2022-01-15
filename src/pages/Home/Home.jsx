@@ -1,4 +1,5 @@
 import React from "react";
+import 'animate.css';
 import styles from '../Home/Home.module.css'
 
 const Home = () => {
@@ -6,16 +7,19 @@ const Home = () => {
     <>
     <main> 
       <div className={styles.home_container}>
-        <div className={styles.intro}>
-        <p id={styles.hello}>HI, I'M GRACE</p>
-        &#9883;<br/>
-        &#9883;<br/>
-        &#9883;<br/>
-        <p>I am a former aerospace engineer turned software engineer with an almost 5-year career in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and private/public companies. I am a life-long learner and am passionate about leveraging the latest full-stack technologies and frameworks to create dynamic and innovative websites.</p>
-        &#9883;<br/>
-        &#9883;<br/>
-        &#9883;<br/>
-        <p>Feel free to look at my work <a href="/works">here</a> at contact me <a href="/contact">here</a>.</p>
+        <img className={styles.home_image} src="images/new_york_v2.jpg" alt="" />
+        <h1 className={styles.home_heading}>GRACE MUTUKU</h1>
+        <div className={styles.home_paragraph}>
+          <p>
+            I'm a software engineer and web designer based in Washington D.C.
+          </p>
+          <p>
+            I use my passion for web development to create dynamic and interactive user experiences.
+          </p>
+        </div>
+        <div className={styles.home_buttons}>
+          <a href="https://www.linkedin.com/in/grace-mutuku/" rel="noreferrer" target="_blank"><img src="images/linkedin.png" alt="linkedin" /></a>
+          <a href="https://www.linkedin.com/in/grace-mutuku/" rel="noreferrer" target="_blank"><img src="images/gmail.png" alt="gmail" /></a>
         </div>
       </div>
     </main>
