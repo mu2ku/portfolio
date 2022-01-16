@@ -5,8 +5,8 @@
 }
 
 .home_image {
-  width: 100vh;
-  height: 65vh;
+  width: 50vw;
+  height: 32vw;
   animation-duration: 2s;
   animation-name: fade-in-left;
 }
@@ -37,7 +37,7 @@
 
 .home_heading {
   font-family: 'Libre Baskerville', serif;
-  font-size: 9vh;;
+  font-size: 4.5vw;
   font-weight: 500;
   animation-duration: 2s;
   animation-name: fade-in-right;
