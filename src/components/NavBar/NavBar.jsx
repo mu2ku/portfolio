@@ -13,7 +13,7 @@ const NavBar = (props) => {
               {/* <img src="images/002-home.png" alt="" />  */}
               <Link 
                 activeClass="active"
-                className={styles.link} 
+                className={styles.navbar_link} 
                 to="Home"
                 spy={true}
                 smooth={true}
@@ -50,11 +50,11 @@ const NavBar = (props) => {
                 Portfolio
               </Link>
             </li>
-            <li className={styles.navbar_link}>
+            <li className={styles.navbar_item}>
               {/* <img src="images/001-contact.png" alt="" />  */}
               <Link 
                 activeClass="active"
-                className={styles.navbar_items} 
+                className={styles.navbar_link} 
                 to="Contact"
                 spy={true}
                 smooth={true}

@@ -34,7 +34,7 @@ img {
   height: 35px;
 }
 
-a:hover {
+.navbar_link:hover {
   color: #BB7E8C;
 }
 
