@@ -2,14 +2,11 @@
   display: flex;
   flex-flow: wrap row;
   align-items: center;
-  position: relative;
-  top: 30px;
 }
 
 .home_image {
-  width: auto;
+  width: 100vh;
   height: 65vh;
-  position: sticky;
   animation-duration: 2s;
   animation-name: fade-in-left;
 }
@@ -40,10 +37,7 @@
 
 .home_heading {
   font-family: 'Libre Baskerville', serif;
-  font-size: 80px;
-  position: relative;
-  left: -100px;
-  top: 15px;
+  font-size: 9vh;;
   font-weight: 500;
   animation-duration: 2s;
   animation-name: fade-in-right;
@@ -52,11 +46,6 @@
 .home_paragraph {
   font-family: 'Libre Baskerville', serif;
   border-left: 2.5px solid;
-  position: relative;
-  bottom: 210px;
-  left: 835px;
-  padding: 6px;
-  width: 50%;
   text-align: left;
   animation-duration: 2s;
   animation-name: fade-in-right;
@@ -64,14 +53,12 @@
 
 .home_paragraph > p {
   padding: 3.5px;
+  font-size: 1.5vh;
 }
 
 .home_buttons {
   display: flex;
   flex-flow: wrap row;
-  position: relative;
-  bottom: 95px;
-  right: -80px;
   animation-duration: 2s;
   animation-name: fade-in-right;
 }

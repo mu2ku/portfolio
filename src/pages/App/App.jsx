@@ -2,6 +2,7 @@ import React from 'react';
 import NavBar from '../../components/NavBar/NavBar';
 import Footer from '../../components/Footer/Footer'
 import Home from '../Home/Home'
+import About from '../About/About';
 import Works from '../Works/Works'
 import Contact from '../Contact/Contact'
 
@@ -15,8 +16,8 @@ function App() {
       <div id="Home">
         <Home />
       </div>
-      <div id="Skillset">
-        <h1>Grace Mutuku</h1>
+      <div id="About Me">
+        <About />
       </div>
       <div id="Portfolio">
         <Works />

@@ -27,13 +27,13 @@ const NavBar = (props) => {
               <Link 
                 activeClass="active"
                 className={styles.navbar_link} 
-                to="Skillset"
+                to="About Me"
                 spy={true}
                 smooth={true}
                 offset={-100}
                 duration={500}
               >
-                Skillset
+                About Me
               </Link>
             </li>
             <li className={styles.navbar_item}>

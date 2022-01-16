@@ -11,7 +11,7 @@ const Works = () => {
           <div class="card">
             <div class="card-image">
               <figure class="image is-4by3">
-                <img src="images/dominos.png" alt="dominos"/>
+                <img src="images/dominos.jpg" alt="dominos"/>
               </figure>
             </div>
 
