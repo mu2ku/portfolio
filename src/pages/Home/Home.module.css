@@ -72,6 +72,8 @@
   position: relative;
   bottom: 95px;
   right: -80px;
+  animation-duration: 2s;
+  animation-name: fade-in-right;
 }
 
 .home_buttons > * {
@@ -101,4 +103,9 @@
 
 .home_resume:hover > * {
   color: rgb(53, 108, 171);
+}
+
+span {
+  color: #c69e99;
+  font-weight: 700;
 }
