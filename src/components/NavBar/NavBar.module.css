@@ -16,7 +16,7 @@
   margin: 0 100px 0 0;
 }
 
-li {
+.navbar_item {
   cursor: pointer;
   padding: 0 40px;
   display: flex;
@@ -24,7 +24,7 @@ li {
   align-items: center;
 }
 
-li > * {
+.navbar_item > * {
   margin: 0 5px;
   color: #4A4A4A;
 }

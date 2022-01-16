@@ -1,0 +1,40 @@
+.skills_wrapper {
+  margin: 0 100px;
+}
+
+.skills_container {
+  background-color: white;
+  width: auto;
+  height: 400px;
+  display: flex;
+  flex-flow: wrap row;
+  border-radius: 30px;
+}
+
+.skills_combo {
+  border: 1px solid #cecece;
+  box-shadow: 0px 0px 18px #a2a2a2;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 90px;
+  padding: 5px;
+  margin: 40px;
+}
+
+.skills_combo > * {
+  color: #4A4A4A;
+  padding: 4px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.skills_photo {
+  width: 12%;
+  height: 12%;
+}

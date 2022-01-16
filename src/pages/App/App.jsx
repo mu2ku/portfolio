@@ -4,7 +4,6 @@ import Footer from '../../components/Footer/Footer'
 import Home from '../Home/Home'
 import About from '../About/About';
 import Works from '../Works/Works'
-import Contact from '../Contact/Contact'
 
 import "./App.css";
 
@@ -21,9 +20,6 @@ function App() {
       </div>
       <div id="Portfolio">
         <Works />
-      </div>
-      <div id="Contact">
-        <Contact />
       </div>
     </div>
     <Footer />
