@@ -7,12 +7,13 @@
   width: 100%;
   position: fixed;
   top: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .links_container {
   display: flex;
   flex-flow: wrap row;
+  margin: 0 20px 0 0;
 }
 
 .navbar_item {
@@ -24,8 +25,8 @@
 }
 
 .navbar_item > * {
-  margin: 0 5px;
-  color: #4A4A4A;
+  margin: 0 10px;
+  font-size: 20px;
 }
 
 img {
@@ -35,5 +36,6 @@ img {
 
 .navbar_link:hover {
   color: #BB7E8C;
+  transform: translateY(5px);
 }
 

@@ -35,32 +35,49 @@
   }
 }
 
+.home_2_wrapper {
+  position: relative;
+  top: 100px;
+}
+
 .home_heading {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 4.5vw;
-  font-weight: 500;
+  /* font-family: 'Libre Baskerville', serif; */
+  position: relative;
+  right: 120px;
+  bottom: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 6vw;
   animation-duration: 2s;
   animation-name: fade-in-right;
+  color: #4A4A4A;
+  width: auto;
 }
 
 .home_paragraph {
-  font-family: 'Libre Baskerville', serif;
-  border-left: 2.5px solid;
+  /* font-family: 'Libre Baskerville', serif; */
+  font-family: 'Raleway', sans-serif;
+  border-left: 2px solid;
   text-align: left;
   animation-duration: 2s;
   animation-name: fade-in-right;
+  position: relative;
+  left: 40px;
+  bottom: 50px;
 }
 
-.home_paragraph > p {
-  padding: 3.5px;
-  font-size: 1.5vh;
+.home_paragraph > * {
+  padding: 2px 16px;
+  font-size: 1vw;
+  font-weight: 600;
+  color: #4A4A4A;
 }
 
 .home_buttons {
-  display: flex;
-  flex-flow: wrap row;
+  display: inline-flex;
   animation-duration: 2s;
   animation-name: fade-in-right;
+  position: relative;
+  bottom: 40px;
 }
 
 .home_buttons > * {
@@ -86,6 +103,7 @@
 
 .home_buttons > a:hover, .home_resume:hover {
   box-shadow: 0px 0px 20px #747474;
+  transform: translateY(-5px);
 }
 
 .home_resume:hover > * {
@@ -93,6 +111,18 @@
 }
 
 span {
-  color: #c69e99;
+  color: #b1655b;
   font-weight: 700;
+}
+
+.arrow {
+  width: 3vw;
+  height: 2vw;
+  position: relative;
+  bottom: -60px;
+}
+
+.arrow:hover {
+  cursor: pointer;
+  transform: translateY(5px);
 }

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-scroll'
 import styles from '../Home/Home.module.css'
 
 const Home = () => {
@@ -27,6 +28,18 @@ const Home = () => {
             <button className={styles.home_resume}><a href="images/resume.pdf" download>Download Resume</a></button>
           </div>
         </div>
+      </div>
+      <div className={styles.to_next}>
+        <Link 
+          activeClass="active"
+          to="About Me"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+        >
+          <img className={styles.arrow} src="images/arrow_down.png" alt="" />
+        </Link>
       </div>
     </main>
     </>
