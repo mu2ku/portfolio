@@ -4,17 +4,21 @@
   align-items: center;
   justify-content: space-around;
   position: relative;
-  top: -40px;
 }
 
 .about {
   text-align: left;
-  width: 50vw;
+  width: 60vw;
   font-family: 'Raleway', sans-serif;
   font-size: 1vw;
   font-weight: 300;
   color: #4A4A4A;
   line-height: 2.5;
+  border-left: 1px solid;
+}
+
+.about > * {
+  margin: 0 0 0 16px;
 }
 
 .about_title {
@@ -39,7 +43,7 @@
 
 .skills_wrapper {
   position: relative;
-  top: -22px;
+  top: 20px;
 }
 .skills_combo {
   border: 1px solid #cecece;
@@ -72,7 +76,7 @@ ul {
   width: 60px;
   height: 40px;
   position: relative;
-  bottom: 28px;
+  bottom: -30px;
 }
 
 .arrow:hover {

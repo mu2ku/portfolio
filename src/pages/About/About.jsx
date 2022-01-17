@@ -9,8 +9,8 @@ const About = () => {
       <div className={styles.about_container}>
         <img className={styles.skills_photo} src="images/japan.jpg" alt="japan" />
         <div className={styles.about}>
-          <p className={styles.about_title}>ABOUT</p>
-          <p>I am a former aerospace engineer turned software engineer with an almost 5-year career in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and private/public companies. I am a life-long learner and am passionate about leveraging the latest full-stack technologies and frameworks to create dynamic and innovative websites.</p>
+          <p className={styles.about_title}>ABOUT <span>GRACE</span></p>
+          <p>I am a graduate of the General Assembly <span>Software Engineering</span> Immersive Bootcamp and also have a BS in <span>Aerospace Engineering</span> from the University of Maryland, College Park. I have an almost <span>5-year career</span> in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and private/public companies. I am a life-long learner and am passionate about leveraging the latest <span>full-stack technologies</span> and <span>frameworks</span> to create dynamic and innovative websites!</p>
         </div>
       </div>
       <div className={styles.skills_wrapper}>
