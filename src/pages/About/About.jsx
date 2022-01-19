@@ -51,7 +51,7 @@ const About = () => {
             <span className={styles.skills_name}>Rest API</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/mongo.svg.png" alt="html" />
+            <img className={styles.skills_image}src="images/mongo.jpeg" alt="html" />
             <span className={styles.skills_name}>MongoDB</span>
           </li>
           <li className={styles.skills_combo}>
