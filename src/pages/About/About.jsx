@@ -67,15 +67,15 @@ const About = () => {
             <span className={styles.skills_name}>Express</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/c.png" alt="html" />
+            <img className={styles.skills_image}src="images/c.png" alt="C" />
             <span className={styles.skills_name}>C</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/cplus.png" alt="html" />
+            <img className={styles.skills_image}src="images/cplus.png" alt="C++" />
             <span className={styles.skills_name}>C++</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/matlab.png" alt="html" />
+            <img className={styles.skills_image}src="images/matlab.png" alt="Matlab" />
             <span className={styles.skills_name}>Matlab</span>
           </li>
         </ul>
