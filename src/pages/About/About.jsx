@@ -23,47 +23,47 @@ const About = () => {
             <span className={styles.skills_name}>HTML</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/css.svg" alt="html" />
+            <img className={styles.skills_image}src="images/css.svg" alt="css" />
             <span className={styles.skills_name}>CSS</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/bootstrap.png" alt="html" />
+            <img className={styles.skills_image}src="images/bootstrap.png" alt="bootstrap" />
             <span className={styles.skills_name}>Bootstrap</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/javascript.svg" alt="html" />
+            <img className={styles.skills_image}src="images/javascript.svg" alt="javascript" />
             <span className={styles.skills_name}>JavaScript</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/react.svg" alt="html" />
+            <img className={styles.skills_image}src="images/react.svg" alt="react" />
             <span className={styles.skills_name}>React</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/node.svg" alt="html" />
+            <img className={styles.skills_image}src="images/node.svg" alt="node" />
             <span className={styles.skills_name}>NodeJS</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/python.svg" alt="html" />
+            <img className={styles.skills_image}src="images/python.svg" alt="python" />
             <span className={styles.skills_name}>Python</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/api.svg" alt="html" />
+            <img className={styles.skills_image}src="images/api.svg" alt="API" />
             <span className={styles.skills_name}>Rest API</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/mongo.jpeg" alt="html" />
+            <img className={styles.skills_image}src="images/mongo.jpeg" alt="mongoDB" />
             <span className={styles.skills_name}>MongoDB</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/Postgresql_elephant.svg.png" alt="html" />
+            <img className={styles.skills_image}src="images/Postgresql_elephant.svg.png" alt="postgresql" />
             <span className={styles.skills_name}>PostgreSQL</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/django.jpeg" alt="html" />
+            <img className={styles.skills_image}src="images/django.jpeg" alt="django" />
             <span className={styles.skills_name}>Django</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/express.png" alt="html" />
+            <img className={styles.skills_image}src="images/express.png" alt="express" />
             <span className={styles.skills_name}>Express</span>
           </li>
           <li className={styles.skills_combo}>
