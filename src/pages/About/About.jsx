@@ -20,11 +20,11 @@ const About = () => {
         <ul className={styles.skills_container}>
           <li className={styles.skills_combo}>
             <img className={styles.skills_image}src="images/html.svg" alt="html" />
-            <span className={styles.skills_name}>HTML</span>
+            <span className={styles.skills_name}>HTML5</span>
           </li>
           <li className={styles.skills_combo}>
             <img className={styles.skills_image}src="images/css.svg" alt="css" />
-            <span className={styles.skills_name}>CSS</span>
+            <span className={styles.skills_name}>CSS3</span>
           </li>
           <li className={styles.skills_combo}>
             <img className={styles.skills_image}src="images/bootstrap.png" alt="bootstrap" />
