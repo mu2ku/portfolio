@@ -143,4 +143,7 @@ span {
       left: -60px;
       top:-60px;
     }
+    .home_container, .arrow {
+      transform: translateY(40px);
+    }
 }

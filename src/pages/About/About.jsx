@@ -10,7 +10,7 @@ const About = () => {
         <img className={styles.skills_photo} src="images/fountain.jpg" alt="fountain" />
         <div className={styles.about}>
           <p className={styles.about_title}>ABOUT <span>GRACE</span></p>
-          <p>I am a graduate of the General Assembly <span>Software Engineering</span> Immersive Bootcamp and also have a BS in <span>Aerospace Engineering</span> from the University of Maryland, College Park. I have an almost <span>5-year career</span> in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and private/public companies. I am a life-long learner and am passionate about leveraging the latest <span>full-stack technologies</span> and <span>frameworks</span> to create dynamic and innovative websites!</p>
+          <p>I am a graduate of the General Assembly <span>Software Engineering</span> Immersive Bootcamp and I have a BS in <span>Aerospace Engineering</span> from the University of Maryland, College Park. I have a <span>5-year career</span> in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and public companies. I am a life-long learner and am passionate about leveraging the latest <span>full-stack technologies</span> and <span>frameworks</span> to create dynamic and innovative websites!</p>
         </div>
       </div>
       <div className={styles.skills_title_container}>
@@ -66,7 +66,7 @@ const About = () => {
             <img className={styles.skills_image}src="images/express.png" alt="express" />
             <span className={styles.skills_name}>Express</span>
           </li>
-          <li className={styles.skills_combo}>
+          {/* <li className={styles.skills_combo}>
             <img className={styles.skills_image}src="images/c.png" alt="C" />
             <span className={styles.skills_name}>C</span>
           </li>
@@ -76,8 +76,8 @@ const About = () => {
           </li>
           <li className={styles.skills_combo}>
             <img className={styles.skills_image}src="images/matlab.png" alt="Matlab" />
-            <span className={styles.skills_name}>Matlab</span>
-          </li>
+            <span className={styles.skills_name}>MATLAB</span>
+          </li> */}
         </ul>
       </div>
       <div className={styles.to_next}>
