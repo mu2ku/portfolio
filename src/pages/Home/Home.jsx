@@ -5,7 +5,7 @@ import styles from '../Home/Home.module.css'
 const Home = () => {
   return (  
     <>
-    <main> 
+    <main className={styles.home_main}> 
       <div className={styles.home_container}>
         <img className={styles.home_image} src="images/new_york_v2.jpg" alt="new york" />
         <div className={styles.home_2_wrapper}>
@@ -15,7 +15,7 @@ const Home = () => {
               I am a <span>software engineer</span> and <span>web designer</span> based in Washington, D.C.
             </p>
             <p>
-              There's nothing I love more than using my skills to create unique and engaging user experiences.
+              There is nothing I love more than using my skills to create unique and engaging user experiences.
             </p>
             <p>
               I'd love to connect! For any business inquiries feel free to reach me through the below avenues.

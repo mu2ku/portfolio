@@ -41,3 +41,11 @@ img {
   transform: translateY(5px);
 }
 
+@media screen and (max-width: 538px){
+  .navbar_item {
+    padding: 14px;
+  }
+  .navbar{
+    justify-content: center;
+  }
+}
