@@ -1,9 +1,4 @@
 @media screen and (max-width: 1023px){
-  .home_container {
-    display: flex;
-    flex-flow: column;
-  }
-  
   .home_image {
     height: 100%;
     width: 100%;

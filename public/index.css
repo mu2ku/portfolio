@@ -3,3 +3,9 @@ body, html {
   width: auto;
   background-color: #f7f7f7;
 }
+
+@media screen and (max-width: 1024px){
+  body,html {
+    overflow-x: hidden;
+  }
+}
