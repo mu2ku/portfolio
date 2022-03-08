@@ -123,6 +123,7 @@ ul {
 
   .about_title, .skills_title {
     font-size: 4.5vw;
+    text-decoration: underline;
   }
 
   .skills_title_container {
