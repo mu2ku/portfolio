@@ -8,11 +8,11 @@ const Works = () => {
       {/* Dominos */}
       <div className={styles.works1_container}>
         <div>
-          <img className={styles.works1_image} src="images/dominos.jpg" alt="dominos" /> 
+          <img className={styles.works1_image} src="images/dominos.jpg" alt="dominoes" /> 
         </div>
         <div className={styles.works1_description}>
-          <span className={styles.works1_title}>DOMINOS</span>
-          <p>A web browser-based game of dominos versus a computer.</p>
+          <span className={styles.works1_title}>DOMINOES</span>
+          <p>A web browser-based game of dominoes versus a computer.</p>
           <i><p>HTML5	&#9679; CSS3 	&#9679; JavaScript</p></i>
           <a href="https://sei-dominos.surge.sh/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/Dominos" rel="noreferrer" target="_blank">VIEW REPO</a>
           <div className={styles.works1_counter_container}>

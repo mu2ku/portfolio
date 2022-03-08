@@ -10,6 +10,7 @@
   font-family: 'Raleway', sans-serif;
   font-weight: 100;
   margin: 0;
+  z-index: 1;
 }
 
 .links_container {
