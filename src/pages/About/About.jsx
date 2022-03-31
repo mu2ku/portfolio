@@ -7,7 +7,7 @@ const About = () => {
     <>
     <main>
       <div className={styles.about_container}>
-        <img className={styles.skills_photo} src="images/fountain.jpg" alt="fountain" />
+        <img className={styles.skills_photo} src="images/cherry.jpg" alt="cherry" />
         <div className={styles.about}>
           <p className={styles.about_title}>ABOUT <span>GRACE</span></p>
           <p>I am a graduate of the General Assembly <span>Software Engineering</span> Immersive Bootcamp and I have a BS in <span>Aerospace Engineering</span> from the University of Maryland, College Park. I have a <span>5-year career</span> in the IT space, providing impactful IT audit services and solutions to both U.S. government agencies and public companies. I am a life-long learner and am passionate about leveraging the latest <span>full-stack technologies</span> and <span>frameworks</span> to create dynamic and innovative websites!</p>

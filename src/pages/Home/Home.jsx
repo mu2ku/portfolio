@@ -7,7 +7,7 @@ const Home = () => {
     <>
     <main className={styles.home_main}> 
       <div className={styles.home_container}>
-        <img className={styles.home_image} src="images/new_york_v2.jpg" alt="new york" />
+        <img className={styles.home_image} src="images/eustoma.jpg" alt="eustoma" />
         <div className={styles.home_2_wrapper}>
           <h1 className={styles.home_heading}>GRACE MUTUKU</h1>
           <div className={styles.home_paragraph}>
