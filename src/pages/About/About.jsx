@@ -27,7 +27,7 @@ const About = () => {
             <span className={styles.skills_name}>CSS3</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/bootstrap.png" alt="bootstrap" />
+            <img className={styles.skills_image}src="images/bootstrap.svg" alt="bootstrap" />
             <span className={styles.skills_name}>Bootstrap</span>
           </li>
           <li className={styles.skills_combo}>
@@ -51,11 +51,11 @@ const About = () => {
             <span className={styles.skills_name}>Rest API</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/mongo.jpeg" alt="mongoDB" />
+            <img className={styles.skills_image}src="images/mongodb.jpeg" alt="mongoDB" />
             <span className={styles.skills_name}>MongoDB</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/Postgresql_elephant.svg.png" alt="postgresql" />
+            <img className={styles.skills_image}src="images/postgresql.jpeg" alt="postgresql" />
             <span className={styles.skills_name}>PostgreSQL</span>
           </li>
           <li className={styles.skills_combo}>
@@ -63,7 +63,7 @@ const About = () => {
             <span className={styles.skills_name}>Django</span>
           </li>
           <li className={styles.skills_combo}>
-            <img className={styles.skills_image}src="images/express.png" alt="express" />
+            <img className={styles.skills_image}src="images/express.jpg" alt="express" />
             <span className={styles.skills_name}>Express</span>
           </li>
           {/* <li className={styles.skills_combo}>
