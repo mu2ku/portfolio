@@ -52,6 +52,9 @@ const Works = () => {
       </div> */}
       {/* J'ai Faim, Je Mange */}
       <div className={styles.works1_container}>
+        <div>
+          <img className={styles.works1_image} src="images/jai.png" alt="jai" /> 
+        </div>
         <div className={styles.works1_description}>
           <span className={styles.works1_title}>J'AI FAIM, JE MANGE</span>
           <p className={styles.works_shortDes}>"J'ai Faim, Je Mange" is a Python/Django web application for users to search, collect, and add their favorite recipes.</p>
@@ -60,9 +63,6 @@ const Works = () => {
           <div className={styles.works1_counter_container}>
             <span className={styles.works1_counter}>03</span>
           </div>
-        </div>
-        <div>
-          <img className={styles.works1_image} src="images/jai.png" alt="jai" /> 
         </div>
       </div>
     </main>
