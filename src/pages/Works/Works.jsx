@@ -36,7 +36,7 @@ const Works = () => {
         </div>
       </div>
       {/* Genshin Builds */}
-      <div className={styles.works1_container}>
+      {/* <div className={styles.works1_container}>
         <div>
           <img className={styles.works1_image} src="images/genshin.png" alt="genshin" /> 
         </div>
@@ -49,14 +49,14 @@ const Works = () => {
             <span className={styles.works1_counter}>03</span>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* J'ai Faim, Je Mange */}
       <div className={styles.works2_container}>
         <div className={styles.works1_description}>
           <span className={styles.works1_title}>J'AI FAIM, JE MANGE</span>
           <p className={styles.works_shortDes}>"J'ai Faim, Je Mange" is a Python/Django web application for users to search, collect, and add their favorite recipes.</p>
           <i><p>HTML5	&#9679; CSS3 	&#9679; JavaScript &#9679; Python &#9679; Django &#9679; REST API</p></i>
-          <a href="https://jai-104.herokuapp.com/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/J-ai-Faim-Je-Mange" rel="noreferrer" target="_blank">VIEW REPO</a>
+          <a href="https://jai-app.herokuapp.com/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/J-ai-Faim-Je-Mange" rel="noreferrer" target="_blank">VIEW REPO</a>
           <div className={styles.works2_counter_container}>
             <span className={styles.works2_counter}>04</span>
           </div>
