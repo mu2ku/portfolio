@@ -26,7 +26,7 @@ const Works = () => {
           <span className={styles.works1_title}>LINGUA</span>
           <p className={styles.works_shortDes}>Lingua is a repository of free language learning resources for all language learners. Login requires Google OAuth.</p>
           <i><p>HTML5	&#9679; CSS3 	&#9679; JavaScript &#9679; Node.js &#9679; MongoDB &#9679; Express</p></i>
-          <a href="https://sei-lingua-app.herokuapp.com/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/Lingua" rel="noreferrer" target="_blank">VIEW REPO</a>
+          <a href="https://lingua-app.herokuapp.com/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/Lingua" rel="noreferrer" target="_blank">VIEW REPO</a>
           <div className={styles.works2_counter_container}>
             <span className={styles.works2_counter}>02</span>
           </div>
