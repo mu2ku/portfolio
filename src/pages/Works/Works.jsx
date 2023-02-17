@@ -36,7 +36,7 @@ const Works = () => {
         </div>
       </div>
       {/* Genshin Builds */}
-      {/* <div className={styles.works1_container}>
+      <div className={styles.works1_container}>
         <div>
           <img className={styles.works1_image} src="images/genshin.png" alt="genshin" /> 
         </div>
@@ -44,12 +44,12 @@ const Works = () => {
           <span className={styles.works1_title}>GENSHIN BUILDS</span>
           <p>Genshin Builds is an application where players of the popular action RPG, Genshin Impact, can create, mix and match potential team builds!</p>
           <i><p>HTML5	&#9679; CSS3 	&#9679; JavaScript &#9679; MongoDB &#9679; Express &#9679; React &#9679; Node.js &#9679; REST API</p></i>
-          <a href="https://genshin-team-builder.herokuapp.com/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/genshin-builds" rel="noreferrer" target="_blank">VIEW REPO</a>
+          <a href="https://genshin-builds-v1.herokuapp.com/" rel="noreferrer" target="_blank">VIEW LIVE</a> | <a href="https://github.com/mu2ku/genshin-builds" rel="noreferrer" target="_blank">VIEW REPO</a>
           <div className={styles.works1_counter_container}>
             <span className={styles.works1_counter}>03</span>
           </div>
         </div>
-      </div> */}
+      </div>
       {/* J'ai Faim, Je Mange */}
       {/* <div className={styles.works1_container}>
         <div>
