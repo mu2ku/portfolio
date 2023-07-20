@@ -12,7 +12,7 @@ const Home = () => {
           <h1 className={styles.home_heading}>GRACE MUTUKU</h1>
           <div className={styles.home_paragraph}>
             <p>
-              I am a freellance <span>software engineer</span> and <span>web designer</span> based in Washington, D.C.
+              I am a freelance <span>software engineer</span> and <span>web designer</span> based in Washington, D.C.
             </p>
             <p>
               There is nothing I love more than using my skills to create unique and engaging user experiences.
