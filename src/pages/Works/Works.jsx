@@ -36,7 +36,7 @@ const Works = () => {
         </div>
       </div>
       {/* Genshin Builds */}
-      <div className={styles.works1_container}>
+      {/* <div className={styles.works1_container}>
         <div>
           <img className={styles.works1_image} src="images/genshin.png" alt="genshin" /> 
         </div>
@@ -49,7 +49,7 @@ const Works = () => {
             <span className={styles.works1_counter}>03</span>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* J'ai Faim, Je Mange */}
       {/* <div className={styles.works1_container}>
         <div>
