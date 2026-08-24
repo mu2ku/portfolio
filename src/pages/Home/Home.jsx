@@ -25,7 +25,6 @@ const Home = () => {
             <a className={styles.home_images} href="https://www.linkedin.com/in/grace-mutuku/" rel="noreferrer" target="_blank"><img src="images/linkedin.png" alt="linkedin" /></a>
             <a className={styles.home_images} href="mailto:gmutuku@gmail.com" rel="noreferrer" target="_blank"><img src="images/gmail.png" alt="gmail" /></a>
             <a className={styles.home_images} href="https://github.com/mu2ku" rel="noreferrer" target="_blank"><img src="images/github.png" alt="github" /></a>
-            <button className={styles.home_resume}><a href="images/resume.pdf" download>Download Resume</a></button>
           </div>
         </div>
       </div>
